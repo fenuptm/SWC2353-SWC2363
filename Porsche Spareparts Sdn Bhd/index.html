@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scaale=1.0">
+    <title>Porsche Parts Sale Sdn Bhd</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <!-- Nav Container -->
+        <div class="nav container">
+            <!-- Menu Icon -->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!-- Logo -->
+            <a href="#" class="logo">Pors<span>che</span></a>
+            <!-- Nav List -->
+            <ul class="navbar">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#parts">Parts</a></li>
+                <li><a href="#blog">Our Blog</a></li>
+                <li><a href="admin_login.php">Admin</a></li>
+            </ul>
+            <!-- Search Icon -->
+<i class='bx bx-search' id="search-icon"></i>
+<!-- Search Box -->
+<div class="search-box container" id="search-box">
+    <input type="search" name="" id="search-input" placeholder="Search here...">
+</div>
+
+            </div>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>We Have Everything <br>Your <span>Car</span> Need</h1>
+            <p>Upgrade your car's performance with premium auto spare parts - quality components for a smoother ride and enhanced driving experience!</p>
+            <!-- Home Button -->
+            <a href="#cars" class="btn">Discover Now</a>
+            <div class="video-container" style="margin-top: 50px;">
+                <video src="ezgif-3-4e760ab3ba.mp4" loop autoplay muted class="video"></video>
+            </div>
+        </div>
+    </section>
+    <!-- Cars Section -->
+    <section class="cars" id="cars">
+        <div class="heading">
+            <span>All Cars</span>
+            <h2>We have various types of parts for Porsche</h2>
+            <p>Make it premium</p>
+        </div>
+        <!-- Cars Container -->
+        <div class="cars-container container">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="image1.png" alt="">
+                <h2>Porsche Cayenne</h2>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="image2.png" alt="">
+                <h2>Porsche 911 GT3</h2>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <img src="image3.png" alt="">
+                <h2>Porsche Taycan</h2>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <img src="image4.png" alt="">
+                <h2>Porsche GT2RS</h2>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <img src="image5.png" alt="">
+                <h2>Porsche Panamera</h2>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <img src="image6.png" alt="">
+                <h2>Porsche 991 Carrera</h2>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img src="imageabout.png" alt="">
+        </div>
+        <div class="about-text">
+         <span>About Us</span>
+         <h2>Cheap Prices With <br>Quality Cars</h2>
+         <p>Get your new parts only with us </p>
+         <!-- About Button -->
+         <a href="#about" class="btn" id="More-about-us-btn">More About Us</a>
+        <div id="about-description" style="display: none;">
+            <p>Welcome to Porsche Parts Sale Sdn Bhd, where our passion for Porsche excellence meets your automotive needs. Specializing in top-quality spare parts, we're dedicated to providing Porsche enthusiasts with an extensive inventory of authentic components. Our commitment to quality assurance ensures each part upholds the brand's standards, from headlights to exhaust systems. With a knowledgeable team offering personalized advice and support, we prioritize customer satisfaction, offering a seamless shopping experience and timely deliveries. Join our community of Porsche aficionados, benefiting from exclusive deals and insights, as together, we fuel the journey of your prized Porsche with unparalleled expertise and commitment to excellence.</p>
+            </div>
+    </div>
+         
+</section>
+
+<script>
+    document.getElementById('More-about-us-btn').addEventListener('click', function() {
+        document.getElementById('about-description').style.display = 'block';
+    });
+</script>
+
+
+
+        </div>
+    </section>
+    <!-- Parts Section -->
+    <section class="parts" id="parts">
+        <div class="heading">
+        <span>What We Offer</span>
+        <h2>Our Products Are Always Excellent</h2>
+        <p>Surely It Will Never Disapoint Our Customer</p>
+        </div>
+        <!-- Parts Container -->
+        <div class="parts-container container">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="image7.png" alt="">
+                <h3>Porsche Headlamp Bracket</h3>
+                <span>RM200.00</span>
+                <i class='bx bxs-star'>(6 Reviews)</i>
+                <a href="#" class="btn" onclick="showAppointmentForm('Porsche Car')" style="padding-right: 10px; margin-left: 80px;">Book Now</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="image8.png" alt="">
+                <h3>Porsche 718 Head Lamp</h3>
+                <span>RM4,499.00</span>
+                <i class='bx bxs-star'>(92 Reviews)</i>
+                <a href="#" class="btn" onclick="showAppointmentForm('Porsche Car')" style="padding-right: 10px; margin-left: 80px;">Book Now</a>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <img src="image9.png" alt="">
+                <h3>Supersprint Rear Exhaust</h3>
+                <span>RM14,500.00</span>
+                <i class='bx bxs-star'>(32 Reviews)</i>
+                <a href="#" class="btn" onclick="showAppointmentForm('Porsche Car')" style="padding-right: 10px; margin-left: 80px;">Book Now</a>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <img src="image10.png" alt="">
+                <h3>AIRMATIC Absorber</h3>
+                <span>RM1,800.00</span>
+                <i class='bx bxs-star'>(1000 Reviews)</i>
+                <a href="#" class="btn" onclick="showAppointmentForm('Porsche Car')" style="padding-right: 10px; margin-left: 80px;">Book Now</a>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <img src="image11.png" alt="">
+                <h3>Sport Rim Cayenne</h3>
+                <span>RM7,800.00</span>
+                <i class='bx bxs-star'>(90 Reviews)</i>
+                <a href="#" class="btn" onclick="showAppointmentForm('Porsche Car')" style="padding-right: 10px; margin-left: 80px;">Book Now</a>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <img src="image12.png" alt="">
+                <h3>Carbon Cayenne Bodykit</h3>
+                <span>RM800.00</span>
+                <i class='bx bxs-star'>(20 Reviews)</i>
+                <a href="#" class="btn" onclick="showAppointmentForm('Porsche Car')" style="padding-right: 10px; margin-left: 80px;">Book Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Container -->
+    <section class="blog" id="blog">
+        <div class="heading">
+            <span>Blog & News</span>
+            <h2>Our Blog Content</h2>
+            <p>Don't miss our upcoming sales and offers!</p>
+            </div>
+            <!-- Blog Container -->
+            <div class="blog-container container">
+                <!-- Box 1 -->
+                <div class="box">
+                    <img src="imageblog.png" alt="">
+                    <span>Nov 10 2023</span>
+                    <h3>Upcoming Parts</h3>
+                    <p>We will launch this product soon,keep updated!</p>
+                </div>
+                <!-- Box 2 -->
+                <div class="box">
+                    <img src="image13.png" alt="">
+                    <span>Nov 7 2023</span>
+                    <h3>How To Get Perfect Car At Low Price</h3>
+                    <p>Ready to get yourself a new car with reasonable price!</p>
+                </div>
+                <!-- Box 3 -->
+                <div class="box">
+                    <img src="imageblog1.png" alt="">
+                    <span>Nov 14 2023</span>
+                    <h3>Porsche Taycan latest price in Malaysia - November 2023</h3>
+                    <p>Luxurious design and interior</p>
+                </div>
+            </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">Pors<span>che</span></a>
+                <div class="social">
+                    <a href="https://facebook.com/Porsche"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://twitter.com/Porsche"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.instagram.com/porsche.malaysia/"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.youtube.com/user/Porsche"><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="#home">Home</a>
+                <a href="#cars">Cars</a>
+                <a href="#about">About</a>
+                <a href="#parts">Parts</a>
+            </div>
+            <div class="footer-box">
+                <h3>Working Hours</h3>
+                <p>Our Operation Hours : <br> Weekdays : 8am - 11pm <br> Weekends : 10am - 11pm</p>
+
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <a href="https://wa.me/601126990742">Whatsapp</a>
+                <a href="mailto:kl2207011684@student.kuptm.edu.my">Email</a>
+        </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Fariz Lotfi All Right Reserved</p>
+    </div>
+    <!-- Link To Js -->
+    <script src="main.js"></script>
+
+    <!-- Appointment Form -->
+<div id="appointment-form" class="appointment-form">
+    <form action="submit_appointment.php" method="post">
+        <h2>Book an Appointment</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" required>
+
+        <label for="appointment_date">Appointment Date:</label>
+        <input type="date" name="appointment_date" required>
+
+        <input type="hidden" name="car_model" id="appointment-car-model" value="">
+
+        <label for="message">Additional Message:</label>
+        <textarea name="message" rows="4"></textarea>
+
+        <button type="submit" class="btn">Submit Appointment</button>
+        <button type="button" class="btn" onclick="document.getElementById('appointment-form').style.display='none'">Close</button>
+    </form>
+</div>
+
+
+</body>
+</html>
